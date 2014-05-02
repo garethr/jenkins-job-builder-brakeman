@@ -26,7 +26,7 @@ def brakeman(parser, xml_parent, data):
 
       publishers:
         - brakeman:
-            output: bob.tabs
+            output: brakeman-output.tabs
     """
     logger = logging.getLogger("%s:brakeman" % __name__)
     brakeman = XML.SubElement(xml_parent, 'hudson.plugins.brakeman.BrakemanPublisher')
