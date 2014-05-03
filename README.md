@@ -3,6 +3,9 @@ Builder](http://ci.openstack.org/jenkins-job-builder/) to enable the
 Jenkins [Brakeman
 plugin](https://wiki.jenkins-ci.org/display/JENKINS/Brakeman+Plugin).
 
+[![Code
+Health](https://landscape.io/github/garethr/jenkins-job-builder-brakeman/master/landscape.png)](https://landscape.io/github/garethr/jenkins-job-builder-brakeman/master)
+
 ## Usage
 
 Include the following in your job definitions.
